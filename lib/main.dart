@@ -18,7 +18,8 @@ class BusinessCard extends StatelessWidget {
             children: [
               const CircleAvatar(
                 radius: 50,
-                backgroundColor: Colors.red,
+                backgroundImage: NetworkImage(
+                    'https://avatars.githubusercontent.com/u/5989?v=4'),
               ),
               const Text(
                 'Rodrigo Gregori',
